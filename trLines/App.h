@@ -1,7 +1,6 @@
 #ifndef __APP_H__
 #define __APP_H__
 
-#include "Border.h"
 #include "LineStrategy.h"
 
 namespace app {

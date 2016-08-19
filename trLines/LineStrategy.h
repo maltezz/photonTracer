@@ -2,7 +2,6 @@
 #define __LINESTRATEGY_H__
 
 #include "Point.h"
-#include "ByteImg.h"
 #include "FloatImg.h"
 #include "LineSeg.h"
 

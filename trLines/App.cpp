@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "Rectangle.h"
 #include "App.h"
 #include "BresenhamAlg.h"
 
