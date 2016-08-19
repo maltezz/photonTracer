@@ -1,0 +1,1 @@
+trLines < scene1.txt

@@ -1,7 +1,0 @@
-Level-img
-Occlusion-img
-Out-img
-light pos, x y light color, r g b (e.g. 20 20 0.5 0.5 0.5)
-rays
-filter(0 - no filter)
-exsposure time

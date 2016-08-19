@@ -144,9 +144,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="App.h" />
     <ClInclude Include="BresenhamAlg.h" />
     <ClInclude Include="FloatImg.h" />
