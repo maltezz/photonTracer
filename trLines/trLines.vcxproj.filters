@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\App">
+      <UniqueIdentifier>{53bb20c5-9d6e-48a4-a253-1206c7fa3cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{432bf420-37c7-490d-b2ba-6d55f72a39b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App\GeometricStructs">
+      <UniqueIdentifier>{a477cec3-bae1-476c-947a-1dd58c58df63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App\GeometricStructs">
+      <UniqueIdentifier>{ed6d7619-2642-4afa-a4fc-6f6b3048ead9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App\LineStrat">
+      <UniqueIdentifier>{0beeba28-9cdd-4430-9256-9b8d0d7cccc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App\LineStrat">
+      <UniqueIdentifier>{95b0379c-a103-4345-b7b8-6951099f64e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App\Images">
+      <UniqueIdentifier>{3a45b418-5359-4b74-b6d5-85a907ea41af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App\Images">
+      <UniqueIdentifier>{d14f3354-4bca-4de4-99ee-0597a53e9e7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trLines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\App\GeometricStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSeg.h">
+      <Filter>Header Files\App\GeometricStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="LineStrategy.h">
+      <Filter>Header Files\App\LineStrat</Filter>
+    </ClInclude>
+    <ClInclude Include="BresenhamAlg.h">
+      <Filter>Header Files\App\LineStrat</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatImg.h">
+      <Filter>Header Files\App\Images</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trLines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\App\GeometricStructs</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSeg.cpp">
+      <Filter>Source Files\App\GeometricStructs</Filter>
+    </ClCompile>
+    <ClCompile Include="LineStrategy.cpp">
+      <Filter>Source Files\App\LineStrat</Filter>
+    </ClCompile>
+    <ClCompile Include="BresenhamAlg.h.cpp">
+      <Filter>Source Files\App\LineStrat</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatImg.cpp">
+      <Filter>Source Files\App\Images</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="trLines.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="trLines.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+D:\source\Ò.Ò\level.bmp
+D:\source\Ò.Ò\ocl.bmp
+D:\source\image3.bmp
+20 20 0.4 0.4 0.4
+1000000
+2
+0.3
