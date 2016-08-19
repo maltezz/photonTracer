@@ -16,7 +16,7 @@ int wmain( int argc, wchar_t *argv[] )
 	ULONG_PTR           gdiplusToken;
 
 	Gdiplus::GdiplusStartup( &gdiplusToken, &gdiplusStartupInput, NULL );
-	
+
 	app::InitStruct params;
 	wchar_t file_path[MAX_PATH];
 	std::wcin.getline( file_path, MAX_PATH );
