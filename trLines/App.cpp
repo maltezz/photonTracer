@@ -59,8 +59,9 @@ void App::RayTracing()
 		GenerateTraceLine( trace );
 
 		TraceLine( trace, lc_f );
+
 	}
-	
+
 	SaveImage();
 }
 
